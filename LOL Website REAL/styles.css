@@ -1,0 +1,263 @@
+@charset "utf-8";
+/*-----CSS styles for my headers on diferent page----- */
+#header {
+	background-color: #003366;
+	height: 450px;
+	width: 100%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #FFCC33;
+	line-height: normal;
+	background-image: url(images/Zed_1%20%20.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-weight: bold;
+	border-bottom-style: groove;
+	text-align: center;
+}
+#wpheader {
+	background-color: #7C5830;
+	height: 450px;
+	width: 100%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #FFCC33;
+	line-height: normal;
+	background-image: url(images/gnar%20header.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-weight: bold;
+	border-bottom-style: groove;
+	text-align: center;
+}
+#soheader {
+	background-color: #000000;
+	height: 450px;
+	width: 100%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #FFCC33;
+	line-height: normal;
+	background-image: url(images/46680-riven_vs_shyvana_wallpaper.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-weight: bold;
+	border-bottom-style: groove;
+	text-align: center;
+}
+#auheader {
+	background-color: #000000;
+	height: 450px;
+	width: 100%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #000000;
+	line-height: normal;
+	background-image: url(images/brand.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-weight: bold;
+	border-bottom-style: groove;
+	text-align: center;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #9E6200;
+}
+
+/* -----Content box for each page----- */
+#homecontent {
+	border-radius: 0px 15px 0px 0px;
+	width: 82%;
+	height: 990px;
+	background-image: url(images/Wallpaper.jpg);
+	background-attachment: scroll;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #FFCC33;
+	border-top-style: groove;
+	border-right-style: groove;
+	text-align: center;
+}
+#wpcontent {
+	border-radius: 0px 15px 0px 0px;
+	width: 82%;
+	height: 990px;
+	background-image: url(images/Texture%20-%20Wood.png);
+	background-attachment: scroll;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #FFCC33;
+	border-top-style: groove;
+	border-right-style: groove;
+	background-repeat: repeat;
+	text-align: center;
+}
+#socontent {
+	border-radius: 0px 15px 0px 0px;
+	width: 82%;
+	height: 990px;
+	background-image: url(images/Freljord_Wallpaper.jpg);
+	background-attachment: scroll;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #FFFF00;
+	border-top-style: groove;
+	border-right-style: groove;
+	background-repeat: repeat;
+}
+#aucontent {
+	border-radius: 0px 15px 0px 0px;
+	width: 82%;
+	height: 990px;
+	background-image: url(images/hell.jpg);
+	background-attachment: scroll;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #FFFF00;
+	border-top-style: groove;
+	border-right-style: groove;
+	background-repeat: repeat;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+/* -----Side menu: For choosing webpages------- */
+#sidebar {
+	border-radius: 15px 0px 0px 0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #F70105;
+	float: right;
+	height: 1000px;
+	width: 14%;
+	padding-left: 10px;
+	background-color: #039;
+	background-image: url(images/Sidebar.jpg);
+	border-top-style: groove;
+	border-left-style: groove;
+	margin-top: 10px;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+/* -----Div classes to put in the contents----- */
+.homeimage {
+	height: 120px;
+	width: 120px;
+	padding: 0px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 180px;
+}
+.socialicons {
+	height: 120px;
+	width: 120px;
+	padding: 0px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.auimage {
+	height: 329px;
+	width: 500px;
+	padding: 0px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.socialimage {
+	height: 252px;
+	width: 738px;
+	padding: 0px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+}
+
+.wallpapericons {
+	height: 120px;
+	width: 120px;
+	padding: 0px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.homevideo {
+	float: none;
+	height: 360px;
+	width: 640px;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 260px;
+}
+.sovideo {
+	float: none;
+	height: 360px;
+	width: 640px;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+/* -----The footer for each page----- */
+#footer {
+	color: #FFC;
+	bottom: 0;
+	width: 100%;
+	height: 140px;
+	font-size: 20px;
+	border-top-style: groove;
+	background-color: #00032F;
+	background-image: url(images/footer.png);
+	background-repeat: repeat;
+}
+.riot {
+	float: right;
+	width: 172px;
+	height: 70px;
+}
+.contacts {
+	text-align: left;
+	width: 300px;
+}
+.copyright {
+	text-align: center;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+/* ----- Joiedel Agustin ITN5 ----- */
